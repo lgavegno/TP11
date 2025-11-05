@@ -50,5 +50,13 @@ public abstract class FigurasGeometricas implements iRetorno{
     public int getIdentificador() {
         return identificador;
     }
+
+    // Métodos abstractos que deben ser implementados por las subclases
+    @Override
+    public abstract double retornarArea();
+    
+    @Override
+    public abstract double retornarPerimetro();
+}
     
 }
